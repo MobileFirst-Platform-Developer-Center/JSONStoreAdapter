@@ -23,8 +23,8 @@ function getPeople() {
 
 	var data = { peopleList : [{name: 'chevy', age: 23}, {name: 'yoel', age: 23}] };
 
-	WL.Logger.debug('Adapter: JSONStoreAdapter, procedure: getPeople called.');
-	WL.Logger.debug('Sending data: ' + JSON.stringify(data));
+	MFP.Logger.debug('Adapter: JSONStoreAdapter, procedure: getPeople called.');
+	MFP.Logger.debug('Sending data: ' + JSON.stringify(data));
 
 	return data;
 }
@@ -37,8 +37,8 @@ function pushPeople(data) {
 	//Read the MobileFirst Adapters Getting Started Tutorial for details
 	//and examples regarding contacting a back-end service
 
-	WL.Logger.debug('Adapter: JSONStoreAdapter, procedure: pushPeople called.');
-	WL.Logger.debug('Got data from JSONStore to ADD: ' + JSON.stringify(data));
+	MFP.Logger.debug('Adapter: JSONStoreAdapter, procedure: pushPeople called.');
+	MFP.Logger.debug('Got data from JSONStore to ADD: ' + JSON.stringify(data));
 
 	return;
 }
@@ -51,8 +51,8 @@ function addPerson(data) {
 	//Read the MobileFirst Adapters Getting Started Tutorial for details
 	//and examples regarding contacting a back-end service
 
-	WL.Logger.debug('Adapter: JSONStoreAdapter, procedure: addPerson called.');
-	WL.Logger.debug('Got data from JSONStore to ADD: ' + JSON.stringify(data));
+	MFP.Logger.debug('Adapter: JSONStoreAdapter, procedure: addPerson called.');
+	MFP.Logger.debug('Got data from JSONStore to ADD: ' + JSON.stringify(data));
 
 	return;
 }
@@ -65,8 +65,8 @@ function removePerson(data) {
 	//Read the MobileFirst Adapters Getting Started Tutorial for details
 	//and examples regarding contacting a back-end service
 
-	WL.Logger.debug('Adapter: JSONStoreAdapter, procedure: removePerson called.');
-	WL.Logger.debug('Got data from JSONStore to REMOVE: ' + JSON.stringify(data));
+	MFP.Logger.debug('Adapter: JSONStoreAdapter, procedure: removePerson called.');
+	MFP.Logger.debug('Got data from JSONStore to REMOVE: ' + JSON.stringify(data));
 
 	return;
 }
@@ -79,8 +79,8 @@ function replacePerson(data) {
 	//Read the MobileFirst Adapters Getting Started Tutorial for details
 	//and examples regarding contacting a back-end service
 
-	WL.Logger.debug('Adapter: JSONStoreAdapter, procedure: replacePerson called.');
-	WL.Logger.debug('Got data from JSONStore to REPLACE: ' + JSON.stringify(data));
+	MFP.Logger.debug('Adapter: JSONStoreAdapter, procedure: replacePerson called.');
+	MFP.Logger.debug('Got data from JSONStore to REPLACE: ' + JSON.stringify(data));
 
 	return;
 }
